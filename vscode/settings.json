@@ -1,0 +1,17 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "javascript.validate.enable": false,
+    "workbench.colorTheme": "Dracula Soft",
+    "editor.tabSize": 2,
+    // "editor.fontFamily": "Input Sans",
+    "editor.fontFamily": "Fira Code, Input Sans",
+    "editor.fontLigatures": true,
+    "vim.useCtrlKeys": false,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "files.eol": "\n",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
+    "stylelint.enable": true,
+    "css.validate": false,
+    "scss.validate": true
+}
