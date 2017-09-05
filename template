@@ -1,0 +1,70 @@
+# {{pluginsName}}
+## Introduction
+{{description}}
+- Development: {{plugin}}.js
+- Production: {{plugin}}.min.js
+
+---
+## Installation
+
+### **NPM**
+
+Install the module:
+
+```javascript
+npm i @plugins/{{plugin}}
+```
+
+ES2015+
+
+```javascript
+import "{{plugin}}"
+```
+
+CommonJS
+
+```javascript
+require("{{plugin}}")
+```
+
+### **HTML import**
+
+```html
+<link rel="stylesheet" href="../plugins/{{plugin}}/css/{{plugin}}.css">
+<scripts src="../plugins/{{plugin}}.min.js"></scripts>
+```
+---
+## Usage
+
+```javascript
+$element.as{{Plugin}}();
+```
+
+### [Demo：]()
+
+## API
+
+### Options
+Options | Description
+--------|------------
+`hello` | world
+
+### Classes
+Classes | Description
+--------|-----
+`as-{{plugin}}` | container name
+
+### Method
+Method | Description
+-------|-----
+`get` | getData
+
+### Events
+Events | Description
+-------|-----
+`click` | Active click event
+
+## Copyright and license
+Copyright (C) 2017 amazingSurge.
+
+Licensed under [the LGPL license](LICENSE).
